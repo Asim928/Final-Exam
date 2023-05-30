@@ -1,0 +1,43 @@
+.mic {
+    padding: 100px;
+    background-color: #fff;
+
+    &_title {
+        text-align: center;
+    }
+
+    &_cards {
+        margin-top: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px; 
+    }
+
+    &_card {
+        width: 450px;
+        height: 250px;
+        text-align: center;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        gap: 20px;
+        padding: 80px 10px;
+        background-image: url("https://preview.colorlib.com/theme/podca/images/person_1.jpg.webp");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        
+        &_hover {
+            opacity: 0;
+
+        }
+        &:hover &_hover{
+            background-color: red;
+            opacity: 1;
+            transition: 0.3s linear;
+        }
+    }
+}

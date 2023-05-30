@@ -1,0 +1,23 @@
+.formik{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.addForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  width: 450px;
+  padding: 50px;
+  margin-bottom: 150px;
+}
+
+.input{
+  height: 40px;
+  padding: 10px;
+}
